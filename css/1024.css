@@ -1,0 +1,52 @@
+/* layout / column */
+.xl25 {
+  width: 25%;
+}
+.xl33 {
+  width: 33.33%;
+}
+.xl50 {
+  width: 50%;
+}
+.xl66 {
+  width: 66.66%;
+}
+.xl75 {
+  width: 75%;
+}
+.xl100 {
+  width: 100%;
+}
+.shide,
+.mhide,
+.lhide {
+  display: block;
+}
+.xlhide {
+  display: none;
+}
+#header nav ul li {
+  margin-right: 1.75em;
+}
+#content-fff .video iframe {
+  max-height: none;
+}
+#producten .foto-cherry-bouquet,
+#producten .foto-green-punch,
+#producten .foto-super-pineapple,
+#producten .foto-red-grape,
+#producten .foto-pink-melon,
+#producten .foto-sparkling-coco,
+#producten .foto-purple-sensation,
+#producten .foto-guarana {
+  height: 35em!important;
+}
+#producten .show-taste .column .custom p:nth-of-type(2) {
+  min-height: 6em;
+}
+#producten .producten-filter ul li {
+  display: inline;
+  padding: 0 .6em 0 0;
+  float: none;
+  width: 100%;
+}
